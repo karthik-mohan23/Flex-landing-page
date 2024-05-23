@@ -1,9 +1,6 @@
-import BgImage from "../assets/BG.png";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import heroBg from "../assets/HeroBG.png";
-
-console.log(BgImage);
 
 const Main = () => {
   return (
