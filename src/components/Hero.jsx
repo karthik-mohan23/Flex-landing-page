@@ -1,4 +1,4 @@
-import CheckboxText from "./CheckboxText";
+import checkBoxImg from "../assets/Checkbox.png";
 import SignInForm from "./SignInForm";
 
 const checkboxTexts = [
@@ -9,7 +9,7 @@ const checkboxTexts = [
 
 const Hero = () => {
   return (
-    <div className="w-[85%] lg:w-[75%] mx-auto  pt-8 pb-20  lg:pt-16 lg:pb-40 lg:flex items-center  justify-between gap-4">
+    <section className="w-[85%] lg:w-[75%] mx-auto  pt-8 pb-20  lg:pt-16 lg:pb-40 lg:flex items-center  justify-between gap-4">
       <div className="max-w-[554px] mb-20 lg:mb-0 ">
         <div className="flex flex-col gap-4 mb-8">
           <span className="bg-primary-500 rounded-full text-primary-100 font-medium text-xs px-2 py-2 self-start">
@@ -29,7 +29,16 @@ const Hero = () => {
         </div>
       </div>
       <SignInForm />
-    </div>
+    </section>
   );
 };
 export default Hero;
+
+function CheckboxText({ text }) {
+  return (
+    <div className="flex items-center gap-3">
+      <img src={checkBoxImg} alt="checkbox image" className="w-5 h-full" />
+      <p className="font-medium text-xl text-gray-500">{text}</p>
+    </div>
+  );
+}

@@ -25,7 +25,7 @@ const SignInForm = () => {
           Start your free trial
         </p>
         <div className="flex flex-col gap-4 ">
-          <div className="flex flex-col gap-[6px]">
+          <form className="flex flex-col gap-[6px]">
             <label
               htmlFor="loginEmail"
               className="text-gray-800 font-medium text-base">
@@ -37,8 +37,10 @@ const SignInForm = () => {
               id="loginEmail"
               className="rounded-lg px-[14px] py-[10px] outline-gray-200 border border-gray-200"
             />
-          </div>
-          <button className="bg-primary-500 rounded-md text-white-50  h-[46px]">
+          </form>
+          <button
+            type="submit"
+            className="bg-primary-500 rounded-md text-white-50  h-[46px]">
             Get Started
           </button>
           <p className="flex justify-between items-center gap-2 ">

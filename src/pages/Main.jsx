@@ -4,7 +4,7 @@ import heroBg from "../assets/HeroBG.png";
 
 const Main = () => {
   return (
-    <div
+    <section
       style={{
         backgroundImage: `url(${heroBg})`,
         backgroundSize: "contain",
@@ -12,7 +12,7 @@ const Main = () => {
       className="min-h-full">
       <Navbar />
       <Hero />
-    </div>
+    </section>
   );
 };
 export default Main;
