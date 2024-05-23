@@ -11,7 +11,7 @@ const SignInButtonContents = [
 
 const SignInForm = () => {
   return (
-    <div className="rounded-2xl bg-white-900 px-[98px] shadow-2xl lg:w-[554px] max-w-[554px] relative">
+    <div className="rounded-2xl bg-white-900 px-[98px] shadow-2xl w-full  max-w-[554px] relative">
       <img
         src={LogoIcon}
         alt="logo icon"

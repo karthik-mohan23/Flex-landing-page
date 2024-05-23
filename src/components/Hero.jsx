@@ -9,7 +9,7 @@ const checkboxTexts = [
 
 const Hero = () => {
   return (
-    <div className="w-[75%] mx-auto  pt-8 pb-20  lg:pt-16 lg:pb-40 lg:flex items-center justify-between gap-8">
+    <div className="w-[85%] lg:w-[75%] mx-auto  pt-8 pb-20  lg:pt-16 lg:pb-40 lg:flex items-center  justify-between gap-4">
       <div className="max-w-[554px] mb-20 lg:mb-0 ">
         <div className="flex flex-col gap-4 mb-8">
           <span className="bg-primary-500 rounded-full text-white-50 px-3 py-1 self-start">
